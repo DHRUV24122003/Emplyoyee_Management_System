@@ -1,9 +1,16 @@
 import React from 'react'
+import TaskListNumbers from '../../others/TaskListNumbers'
+import Header from '../../others/Header'
+import TaskList from '../TaskList/TaskList'
 
 const EmployeeDashboard = () => {
   return (
     <div>
-      employeedashboard
+      <div className='p-10 bg-[#1C1C1C] h-screen'>
+      <Header/>
+      <TaskListNumbers/>
+      <TaskList/>
+      </div> 
     </div>
   )
 }
